@@ -6,7 +6,8 @@ namespace SpellСhecker
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Dictonory dictonory = new Dictonory();
+            dictonory.AddWords("main mainly".Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries));
         }
     }
 }
